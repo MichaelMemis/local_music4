@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+   {% for artist in artists %}
+    <p><a href = "/artist"> {{ artist }}</a></p>
+    {% endfor %}
+{%  endblock %}
